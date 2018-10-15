@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<title>个人中心</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+	<script type="text/javascript" src="js/my.js"></script>
+</head>
+<body>
+<!--header start-->
+<header>
+	<div class="header_wrap clearfix">
+		<ul>
+			<li><a href="">闪展首页</a></li>
+			<li><a href="">闪展助手</a></li>
+			<li><a href="">入住须知</a></li>
+			<li><a href="">法律声明</a></li>
+		</ul>
+        <div class="person">
+            <ul class="top_nav">
+                <li class="myorder">
+                    <a href="#">我的订单</a>
+                </li>
+                <li class="shopping">
+                    <a href="##">
+                        <img src="images/top_shopping.png" alt="">购物车（<em>10</em>）</a>
+                </li>
+                <li class="head">
+                    <div class="head_block">
+                        <a href="#" class="headimg">
+                            <img src="images/top_head.png" alt="">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="top_personc">
+                <p>
+                    <a href="#">个人中心</a>
+                </p>
+                <p>
+                    <a href="#">商户中心</a>
+                </p>
+                <p>
+                    <a href="#">退出登录</a>
+                </p>
+            </div>
+        </div>
+	</div>
+</header>
+<!--header end-->
+<!--nav start-->
+<nav>
+	<ul>
+		<li><a href="">个人中心</a></li>
+		<li><a href="">VR全景</a></li>
+		<li><a href="">3D环物</a></li>
+		<li><a href="">行业商城</a></li>
+		<li class="nav_active"><a href="">营销插件</a></li>
+		<li><a href="">数据中心</a></li>
+		<li><a href="">第三方应用</a></li>
+		<li><a href="">第三方服务市场</a></li>
+	</ul>
+</nav>
+<!--nav end-->
+<!--main start-->
+<div class="main">
+	<div class="main_left">
+		<div class="aside_top">
+			<img src="images/personalCenter_main_02.jpg"/>
+			<h2>西安闪展云互联网</h2>
+			<h3>ID:18393818684</h3>
+			<h3>等级：商业会员</h3>
+			<a href="basicsetting.html">修改资料</a>
+		</div>
+		<ul class="aside_nav">
+			<li class="aside_nav_active"><a href="createactivity.html"><span>+创建活动</span></a></li>
+			<li><a href="personalAccount.html"><span>+我的活动</span></a></li>
+		</ul>
+	</div>
+	<div class="main_content">
+		<!--主栏目个人中心开始-->
+		<div class="outside_tab">
+			<ul class="clearfix">
+				<li><a href="entrysetting.html">入口设置</a></li>
+				<li class="inside_tab_active"><a href="basicsetting.html">基础设置</a></li>
+				<li><a href="prizesetting.html">奖品设置</a></li>
+				<li><a href="informing.html">中奖告知</a></li>
+			</ul>
+			<div class="inside_tab_wrap">
+				<!--基础设置开始-->
+				<div class="basicsetting_main">
+					<div class="basicexplain">
+						<span>活动说明：</span>
+                        <textarea placeholder="请填写活动说明"></textarea>
+					</div>
+                    <div class="basicnum">
+                        <span>当前参加人数：</span>
+                        <input type="radio" name="radio1" id="yes" checked><label for="yes">显示</label>
+                        <input type="radio" name="radio1" id="no"><label for="no">不显示</label>
+                    </div>
+                    <h5>设置是否需要显示参加人数，默认显示</h5>
+                    <div class="basicmsg">
+                        <span>中奖人员信息：</span>
+                        <input type="radio" name="radio" id="open" checked><label for="open">开启</label>
+                        <input type="radio" name="radio" id="close"><label for="close">关闭</label>
+                    </div>
+                    <h5>设置是否需要在活动页面显示中奖人员信息，默认开启</h5>
+                    <div class="basiclimit">
+                        <span>限定中奖次数：</span>
+                        <input type="text" value="1">
+                        <em>活动期间，每个用户最多中奖次数（可选<i>&nbsp;0&nbsp;为不限定</i>）</em>
+                    </div>
+                    <div class="basicdate">
+                        <span>活动日期：</span>
+                        <input type="datetime-local">&nbsp;至&nbsp;<input type="datetime-local">
+                    </div>
+                    <div class="basiclink">
+                        <span>参加后跳转链接地址：</span>
+                        <input type="text" >
+                    </div>
+                    <div class="basicmusic">
+                        <span>背景音乐：</span>
+                        <div class="up">
+                            <input type="file" name="file0" id="file0" class="file" accept="audio/*"/>
+                            添加音乐
+                        </div>
+                    </div>
+					<div style="height: 50px;padding-left: 200px">
+						<audio src="" id="audio1" controls></audio>
+					</div>
+                    <div class="submit">
+                        <a href="entrysetting.html" class="laststep">上一步</a>
+                        <a href="prizesetting.html" class="nextstep">下一步</a>
+                    </div>
+				</div>
+				<!--基础设置结束-->
+			</div>
+		</div>
+		<!--主栏目个人中心结束-->
+	</div>
+</div>
+<!--main end-->
+<!--copyright start-->
+<div class="copyright">
+	版权所有Copyright©2017-2020京ICP备17009776号-1
+</div>
+<!--copyright end-->
+<script>
+    $("#file0").change(function () {
+        var objUrl = getObjectURL(this.files[0]);
+        if (objUrl) {
+            $("#audio1").attr("src", objUrl);
+        }
+    });
+
+    function getObjectURL(file) {
+        var url = null;
+        if (window.createObjectURL != undefined) {
+            // basic
+            url = window.createObjectURL(file);
+        }
+        else if (window.URL != undefined) {
+            // mozilla(firefox)
+            url = window.URL.createObjectURL(file);
+        }
+        else if (window.webkitURL != undefined) {
+            // webkit or chrome
+            url = window.webkitURL.createObjectURL(file);
+        }
+        return url;
+    }
+    $(function () {
+        $('.head_block').click(function () {
+            $('.top_personc').fadeToggle('fast');
+        })
+    })
+</script>
+</body>
+</html>

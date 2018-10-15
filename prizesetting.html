@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<title>个人中心</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+	<script type="text/javascript" src="js/my.js"></script>
+</head>
+<body>
+<!--header start-->
+<header>
+	<div class="header_wrap clearfix">
+		<ul>
+			<li><a href="">闪展首页</a></li>
+			<li><a href="">闪展助手</a></li>
+			<li><a href="">入住须知</a></li>
+			<li><a href="">法律声明</a></li>
+		</ul>
+        <div class="person">
+            <ul class="top_nav">
+                <li class="myorder">
+                    <a href="#">我的订单</a>
+                </li>
+                <li class="shopping">
+                    <a href="##">
+                        <img src="images/top_shopping.png" alt="">购物车（<em>10</em>）</a>
+                </li>
+                <li class="head">
+                    <div class="head_block">
+                        <a href="#" class="headimg">
+                            <img src="images/top_head.png" alt="">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="top_personc">
+                <p>
+                    <a href="#">个人中心</a>
+                </p>
+                <p>
+                    <a href="#">商户中心</a>
+                </p>
+                <p>
+                    <a href="#">退出登录</a>
+                </p>
+            </div>
+        </div>
+	</div>
+</header>
+<!--header end-->
+<!--nav start-->
+<nav>
+	<ul>
+		<li><a href="">个人中心</a></li>
+		<li><a href="">VR全景</a></li>
+		<li><a href="">3D环物</a></li>
+		<li><a href="">行业商城</a></li>
+		<li class="nav_active"><a href="">营销插件</a></li>
+		<li><a href="">数据中心</a></li>
+		<li><a href="">第三方应用</a></li>
+		<li><a href="">第三方服务市场</a></li>
+	</ul>
+</nav>
+<!--nav end-->
+<!--main start-->
+<div class="main">
+	<div class="main_left">
+		<div class="aside_top">
+			<img src="images/personalCenter_main_02.jpg"/>
+			<h2>西安闪展云互联网</h2>
+			<h3>ID:18393818684</h3>
+			<h3>等级：商业会员</h3>
+			<a href="basicsetting.html">修改资料</a>
+		</div>
+		<ul class="aside_nav">
+			<li class="aside_nav_active"><a href="createactivity.html"><span>+创建活动</span></a></li>
+			<li><a href="personalAccount.html"><span>+我的活动</span></a></li>
+		</ul>
+	</div>
+	<div class="main_content">
+		<!--主栏目个人中心开始-->
+		<div class="outside_tab">
+			<ul class="clearfix">
+				<li><a href="entrysetting.html">入口设置</a></li>
+				<li><a href="basicsetting.html">基础设置</a></li>
+				<li class="inside_tab_active"><a href="prizesetting.html">奖品设置</a></li>
+				<li><a href="informing.html">中奖告知</a></li>
+			</ul>
+			<div class="inside_tab_wrap">
+				<!--奖品设置开始-->
+				<div class="prizesetting_main">
+                    <div class="prizetitle">
+                        <p>添加奖品说明: 最多可设置8种奖品。</p>
+                        <p>中奖率相加须等于100%，不足100%剩余中奖率由“谢谢参与”补充，可更改未中奖名称。<em>支持输入两位小数，如：0.01</em>&nbsp;中奖率是每次摇奖的中奖率</p>
+                    </div>
+                    <hr>
+                    <div class="prizetable">
+                        <div class="prizenum" id="top">
+                            <ul>
+                                <li><a class="prizetitleactive">一等奖</a></li>
+                                <li><a>二等奖</a></li>
+                                <li><a>三等奖</a></li>
+                            </ul>
+                        </div>
+                        <div class="prizecontent" id="center">
+                            <div class="prizeone dom">
+                                <p class="prizeonetitle">基本选择1</p>
+                                <hr>
+                                <div class="prizecash">
+                                    <span>奖品类型：</span>
+                                    <input type="radio" checked>现金红包
+                                </div>
+                                <div class="prizeredpack">
+                                    <span>红包金额：</span>
+                                    <input type="text" value="">&nbsp;&nbsp;元
+                                    <em>*每个红包的金额，不是总额</em>
+                                </div>
+                                <div class="prizerednum">
+                                    <span>红包数量：</span>
+                                    <input class="prizetext" type="text" value="">
+                                    <input class="prizebox" type="checkbox"><em>不限数量</em>
+                                </div>
+                                <div class="prizerate">
+                                    <span>中奖率：</span>
+                                    <input type="text" value="">&nbsp;&nbsp;%
+                                    <em>*每次，不是每人</em>
+                                </div>
+                                <div class="prizemode">
+                                    <span>兑奖方式：</span>
+                                    <input type="radio" checked>自动发放至用户账户
+                                </div>
+                            </div>
+                            <div class="prizesecond dom">
+                                <p class="prizeonetitle">基本选择2</p>
+                                <hr>
+                                <div class="prizecash">
+                                    <span>奖品类型：</span>
+                                    <input type="radio" checked>现金红包
+                                </div>
+                                <div class="prizeredpack">
+                                    <span>红包金额：</span>
+                                    <input type="text" value="">&nbsp;&nbsp;元
+                                    <em>*每个红包的金额，不是总额</em>
+                                </div>
+                                <div class="prizerednum">
+                                    <span>红包数量：</span>
+                                    <input class="prizetext" type="text" value="">
+                                    <input class="prizebox" type="checkbox"><em>不限数量</em>
+                                </div>
+                                <div class="prizerate">
+                                    <span>中奖率：</span>
+                                    <input type="text" value="">&nbsp;&nbsp;%
+                                    <em>*每次，不是每人</em>
+                                </div>
+                                <div class="prizemode">
+                                    <span>兑奖方式：</span>
+                                    <input type="radio" checked>自动发放至用户账户
+                                </div>
+                            </div>
+                            <div class="prizethird dom">
+                                <p class="prizeonetitle">基本选择3</p>
+                                <hr>
+                                <div class="prizecash">
+                                    <span>奖品类型：</span>
+                                    <input type="radio" checked>现金红包
+                                </div>
+                                <div class="prizeredpack">
+                                    <span>红包金额：</span>
+                                    <input type="text" value="">&nbsp;&nbsp;元
+                                    <em>*每个红包的金额，不是总额</em>
+                                </div>
+                                <div class="prizerednum">
+                                    <span>红包数量：</span>
+                                    <input class="prizetext" type="text" value="">
+                                    <input class="prizebox" type="checkbox"><em>不限数量</em>
+                                </div>
+                                <div class="prizerate">
+                                    <span>中奖率：</span>
+                                    <input type="text" value="">&nbsp;&nbsp;%
+                                    <em>*每次，不是每人</em>
+                                </div>
+                                <div class="prizemode">
+                                    <span>兑奖方式：</span>
+                                    <input type="radio" checked>自动发放至用户账户
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prizeno">
+                        <div class="prizenored">
+                            <span class="">未中奖：</span>
+                            <input type="text" value="" placeholder="谢谢参与">
+                            <span>每次未中奖率：</span>
+                            <input type="text" value="">&nbsp;&nbsp;%
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="submit">
+                        <a href="basicsetting.html" class="laststep">上一步</a>
+                        <a href="informing.html" class="nextstep">下一步</a>
+                    </div>
+				</div>
+				<!--奖品设置结束-->
+			</div>
+		</div>
+		<!--主栏目个人中心结束-->
+	</div>
+</div>
+<!--main end-->
+<!--copyright start-->
+<!--充值弹层开始-->
+<div class="recharge">
+    <div class="rechargediv">
+        <p class="rechargetitle">您的账户余额不足，是否前往充值？</p>
+        <p class="rechargecontent">
+            <a href="##" class="yes fl">是</a>
+            <a href="##" class="no fr">否</a>
+        </p>
+    </div>
+</div>
+<!--充值弹层结束-->
+<div class="copyright">
+	版权所有Copyright©2017-2020京ICP备17009776号-1
+</div>
+<!--copyright end-->
+<script>
+    window.onload = function () {
+        //等级奖切换
+        //获取标签
+        var litop = document.getElementById('top');
+        var top = litop.getElementsByTagName("a");
+        var centerdom = document.getElementById('center');
+        var center = centerdom.getElementsByClassName("dom");
+
+        //开始监听
+        for (var i = 0; i < top.length; i++) {
+            var li = top[i];
+            li.index = i;
+            li.onclick = function () {
+                for (var j = 0; j < center.length; j++) {
+                    top[j].className = "";
+                    center[j].style.display = "none";
+                }
+                this.className = "prizetitleactive";
+                center[this.index].style.display = "block";
+            };
+        };
+    }
+    //显示充值弹层
+    $(function () {
+        $('.nextstep').click(function () {
+            $('.recharge').fadeToggle('fast');
+        })
+        $('.head_block').click(function () {
+            $('.top_personc').fadeToggle('fast');
+        })
+        $('.no').click(function () {
+            $('.recharge').fadeToggle('fast');
+        })
+    })
+</script>
+</body>
+</html>

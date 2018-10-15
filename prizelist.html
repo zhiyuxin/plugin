@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<title>个人中心</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+	<!--<script type="text/javascript" src="js/my.js"></script>-->
+</head>
+<body>
+<!--header start-->
+<header>
+	<div class="header_wrap clearfix">
+		<ul>
+			<li><a href="">闪展首页</a></li>
+			<li><a href="">闪展助手</a></li>
+			<li><a href="">入住须知</a></li>
+			<li><a href="">法律声明</a></li>
+		</ul>
+        <div class="person">
+            <ul class="top_nav">
+                <li class="myorder">
+                    <a href="#">我的订单</a>
+                </li>
+                <li class="shopping">
+                    <a href="##">
+                        <img src="images/top_shopping.png" alt="">购物车（<em>10</em>）</a>
+                </li>
+                <li class="head">
+                    <div class="head_block">
+                        <a href="#" class="headimg">
+                            <img src="images/top_head.png" alt="">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="top_personc">
+                <p>
+                    <a href="#">个人中心</a>
+                </p>
+                <p>
+                    <a href="#">商户中心</a>
+                </p>
+                <p>
+                    <a href="#">退出登录</a>
+                </p>
+            </div>
+        </div>
+	</div>
+</header>
+<!--header end-->
+<!--nav start-->
+<nav>
+	<ul>
+		<li><a href="">个人中心</a></li>
+		<li><a href="">VR全景</a></li>
+		<li><a href="">3D环物</a></li>
+		<li><a href="">行业商城</a></li>
+		<li class="nav_active"><a href="">营销插件</a></li>
+		<li><a href="">数据中心</a></li>
+		<li><a href="">第三方应用</a></li>
+		<li><a href="">第三方服务市场</a></li>
+	</ul>
+</nav>
+<!--nav end-->
+<!--main start-->
+<div class="main">
+	<div class="main_left">
+		<div class="aside_top">
+			<img src="images/personalCenter_main_02.jpg"/>
+			<h2>西安闪展云互联网</h2>
+			<h3>ID:18393818684</h3>
+			<h3>等级：商业会员</h3>
+			<a href="basicsetting.html">修改资料</a>
+		</div>
+		<ul class="aside_nav">
+			<li><a href="createactivity.html"><span>+创建活动</span></a></li>
+			<li class="aside_nav_active"><a href="personalAccount.html"><span>+我的活动</span></a></li>
+		</ul>
+	</div>
+	<div class="main_content">
+		<!--主栏目个人中心开始-->
+		<div class="outside_tab">
+			<ul class="personalAccount_title clearfix">
+				<li class="personalAccount" style="width: auto;color: #979797;">
+                    主页&nbsp;/&nbsp;营销插件&nbsp;/&nbsp;我的活动&nbsp;/&nbsp;<em>中奖名单</em>
+                </li>
+			</ul>
+			<div class="inside_tab_wrap">
+				<div class="prizelist_main">
+                    <div class="prizelisttitle">
+                        <ul>
+                            <li>中奖用户</li>
+                            <li>奖品</li>
+                            <li>中奖时间</li>
+                            <li>姓名</li>
+                            <li>联系电话</li>
+                        </ul>
+                    </div>
+                    <div class="prizecontent">
+                        <ul>
+                            <li>
+                                <em>欢乐抢红包</em>
+                            </li>
+                            <li>
+                                <em>2元现金</em>
+                            </li>
+                            <li>
+                                <em>2018-06-13 17:15:12</em>
+                            </li>
+                            <li>
+                                <em>张三</em>
+                            </li>
+                            <li>
+                                <em>18888888888</em>
+                            </li>
+                        </ul>
+                        <div class="paging">
+                            <div class="pagingleft fl">
+                                共有&nbsp;<em>1</em>&nbsp;条记录，每页显示
+                                <select name="" id="">
+                                    <option value="">10</option>
+                                    <option value="">20</option>
+                                    <option value="">30</option>
+                                </select>
+                            </div>
+                            <div class="pagingright fr">
+                                <a href="##"><img src="images/left.png" title="上一页"></a>
+                                <span>&nbsp;<em>1&nbsp;</em>/<em>&nbsp;2</em>&nbsp;</span>
+                                <a href="##"><img src="images/right.png" title="下一页"></a>
+                                <input type="text" value="1" maxlength="3">
+                                <input type="button" value="跳转">
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!--主栏目个人中心结束-->
+	</div>
+</div>
+<!--main end-->
+<!--copyright start-->
+<div class="copyright">
+	版权所有Copyright©2017-2020京ICP备17009776号-1
+</div>
+<!--copyright end-->
+<script>
+    $(function () {
+        $('.smallcode').mousemove(function () {
+            $(this).children('.bigcode').show();
+        })
+        $('.smallcode').mouseout(function () {
+            $(this).children('.bigcode').hide();
+        })
+
+
+        $('.morediv').mouseover(function () {
+            $(this).children('.more').show();
+        })
+        $('.morediv').mouseout(function () {
+            $(this).children('.more').hide();
+        })
+        $('.head_block').click(function () {
+            $('.top_personc').fadeToggle('fast');
+        })
+    })
+</script>
+</body>
+</html>

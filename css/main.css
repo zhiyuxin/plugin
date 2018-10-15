@@ -1,0 +1,1641 @@
+/*public style start*/
+/*header*/
+header {
+    background: #222;
+}
+
+.header_wrap {
+    width: 98%;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    overflow: hidden;
+    padding: 14px 10px 14px 64px;
+    line-height: 32px;
+    box-sizing: border-box;
+}
+
+header a, header a:hover {
+    color: #fff;
+}
+
+header ul {
+    float: left;
+}
+
+header .person {
+    float: right;
+    height: 48px;
+}
+
+header li {
+    float: left;
+    margin-right: 48px;
+}
+.person .top_nav {
+    height: 100%;
+    float: right;
+    line-height: 54px;
+    position: relative;
+    margin-right: 131px;
+}
+
+.person .top_nav .myorder, .shopping, .head {
+    display: inline-block;
+    line-height: 27px;
+    padding: 0 26px 0 26px;
+    border-right: 1px solid #ccc;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 0;
+}
+
+.person .top_nav li:nth-child(3) {
+    border-right: none;
+}
+
+.person .top_nav li:nth-child(3) .head_block {
+    display: block;
+    height: 70px;
+    position: relative;
+    top: -8px;
+}
+
+.person .top_nav li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.person .top_nav .shopping img {
+    width: auto;
+    height: 25px;
+    padding-right: 7px;
+}
+
+.person .top_nav li em {
+    color: #FCFF00;
+}
+.person .top_nav .head img {
+    width: 46px;
+    height: 47px;
+}
+
+.person  .top_personc {
+    display: none;
+    background-color: #fff;
+    width: 96px;
+    height: 128px;
+    z-index: 15;
+    position: absolute;
+    right: 155px;
+    top: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.person  .top_personc p {
+    border-bottom: 1px solid #ccc;
+    line-height: 39px;
+    font-size: 15px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+.person  .top_personc p a{
+    color: #000!important;
+}
+.person  .top_personc p:nth-child(3) {
+    border-bottom: none;
+}
+
+.person  .top_personc p:nth-child(3) a:hover {
+    color: red !important;
+}
+
+/*nav*/
+nav {
+    height: 60px;
+    background: #0085eb;
+    padding-left: 11.2%;
+    padding-right: 120px;
+    width: 98%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.5);
+}
+
+nav a, nav a:hover {
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+nav li {
+    line-height: 1;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+}
+
+nav .nav_active, nav li:hover {
+    background: #0074ce;
+}
+
+/*main*/
+.main {
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main_left {
+    width: 214px;
+    margin-right: 20px;
+    position: absolute;
+    left: 1%;
+    top: 140px;
+}
+
+.main_content {
+    margin-left: 233px;
+}
+
+/*main_left*/
+.aside_top {
+    height: 265px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 1;
+}
+
+.aside_top img {
+    width: 99px;
+}
+
+.aside_top h2 {
+    font-size: 1.5rem;
+    color: #454545;
+    /*height: 25px;*/
+    padding: 20px 0 10px 0;
+    margin: 0;
+}
+
+.aside_top h3 {
+    font-size: 1.3rem;
+    color: #454545;
+    padding: 10px 0 10px 0;
+}
+.aside_top a, .aside_top a:hover {
+    display: block;
+    width: 88px;
+    height: 26px;
+    line-height: 26px;
+    margin: 18px auto 0 auto;
+    border-radius: 6px;
+    background: #ff5a00;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.aside_nav {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    margin-top: 20px;
+    height: 560px;
+}
+
+.aside_nav li {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #0085eb;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.aside_nav li:hover {
+    cursor: pointer;
+    background: #0085eb;
+    color: #fff;
+}
+
+.aside_nav li a {
+    color: #0085eb;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.aside_nav li i {
+    font-size: 2.6rem;
+    padding-right: 10px;
+}
+
+.aside_nav li i, .aside_nav li span {
+    vertical-align: middle;
+}
+
+.aside_nav .aside_nav_active {
+    background: #0085eb;
+    color: #fff;
+}
+
+.aside_nav .aside_nav_active a, .aside_nav li:hover a {
+    color: #fff;
+}
+
+/*main_content*/
+.outside_tab > div:nth-child(1) {
+    height: 48px;
+    line-height: 38px;
+    font-size: 16px;
+    color: #9EA1A3;
+    background: #fff;
+    padding: 10px 0 0 49px;
+    margin-bottom: 20px;
+}
+.outside_tab > ul {
+    height: 48px;
+    font-size: 16px;
+    color: #9EA1A3;
+    background: #fff;
+    padding: 10px 0 0 30px;
+    margin-bottom: 20px;
+}
+.outside_tab > ul li {
+    width: 120px;
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #0090ff;
+    font-size: 1.6rem;
+    position: relative;
+}
+.outside_tab>ul li:hover,.outside_tab .inside_tab_active{
+    cursor: pointer;
+    background:#f2f2f2;
+}
+.outside_tab > ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #0091fe;
+}
+
+.inside_tab_wrap {
+    background: #fff;
+    height: 790px;
+}
+.inside_tab_wrap .personalCenter_main{
+    padding: 48px 0 0 30px;
+}
+.inside_tab_wrap .personalCenter_main ul{
+    width: 100%;
+    height: 100%;
+}
+.inside_tab_wrap .personalCenter_main ul li{
+    float: left;
+    width: 276px;
+    height: 181px;
+    margin: 0 26px 35px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 2px #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.inside_tab_wrap .personalCenter_main ul li.active{
+    border: 1px solid #40A4F0;
+}
+.inside_tab_wrap .personalCenter_main ul li .covermask{
+    margin-top: 9px;
+    position: relative;
+}
+.inside_tab_wrap .personalCenter_main ul li .mask{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    height: 100%;
+    margin: 0 4% 0 4%;
+    background: rgba(0,0,0,0.5);
+}
+.inside_tab_wrap .personalCenter_main ul li .mask p{
+    line-height: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.inside_tab_wrap .personalCenter_main ul li p .left{
+    padding: 20px 0 0 25px;
+    font-size: 16px;
+}
+.inside_tab_wrap .personalCenter_main ul li p .right{
+    padding: 13px 22px 0 0;
+}
+.inside_tab_wrap .personalCenter_main ul li .addimgb{
+    display: none;
+    width: 34px;
+    height: 34px;
+}
+.inside_tab_wrap .personalCenter_main ul li .addimgn{
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+/*入口设置*/
+.inside_tab_wrap .entrysetting_main{
+    height: 100%;
+    margin-left: 20%;
+}
+.entrysetting_main .entryleft, .entryright{
+    float: left;
+    margin-top: 40px;
+}
+.entrysetting_main .entryleft{
+    width: 287px;
+    height: 563px;
+    margin-right: 116px;
+    background: url("../images/phone.png")no-repeat center;
+    background-size: cover;
+}
+.entrysetting_main .entryleft .top{
+    padding: 70px 30px 0 30px;
+}
+.entrysetting_main .entryleft .entrytitle{
+    width: 100%;
+    height: 46px;
+    line-height: 58px;
+}
+.entrysetting_main .entryleft .entrytitle img{
+    width: 10px;
+    height: 14px;
+    vertical-align: baseline;
+}
+.entrysetting_main .entryleft .entrytitle .back{
+    color: #fff;
+    margin-left: 5px;
+}
+.entrysetting_main .entryleft .entrytitle .titletext{
+    color: #fff;
+    padding-left: 30px;
+}
+.entrysetting_main .entryleft .entrytitle .titleright{
+    width: 19px;
+    height: 5px;
+    padding-left: 40px;
+    vertical-align: middle;
+}
+.entrysetting_main .entryleft .phoneimg{
+    width: 252px;
+    height: 375px;
+    padding: 6px 0 0 17px;
+}
+.entrysetting_main .entryright{
+    width: 386px;
+    height: auto;
+}
+.entrysetting_main .entryright h5{
+    padding-left: 90px;
+    color: #909090;
+    margin-bottom: 10px;
+}
+.entrysetting_main .entryright .lowsource{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin: 18px 0 35px 90px;
+}
+.entrysetting_main .entryright .lowsource img{
+    width: 100%;
+    height: 100%;
+}
+/*标题*/
+.entrysetting_main .entryright .entrytitle{
+    height: 37px;
+    margin-bottom: 26px;
+}
+.entrysetting_main .entryright .entrytitle span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 60px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.entrysetting_main .entryright .entrytitle input{
+    width: 293px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+}
+/*关键词*/
+.entrysetting_main .entryright .entrykeyword{
+    height: 37px;
+    margin-bottom: 15px;
+}
+.entrysetting_main .entryright .entrykeyword span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 60px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.entrysetting_main .entryright .entrykeyword input{
+    width: 293px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+}
+/*封面*/
+.entrysetting_main .entryright .entrycover{
+    height: 37px;
+    margin-bottom: 26px;
+}
+.entrysetting_main .entryright .entrycover span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 60px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.entrysetting_main .entryright .entrycover .up{
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    overflow: hidden;
+    color: #fff;
+    background-color: #0085EB;
+    padding: 10px 19px;
+}
+.entrysetting_main .entryright .entrycover .up .file{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    outline: none;
+    background-color: transparent;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+/*摘要*/
+.entrysetting_main .entryright .entryabstract{
+    margin-bottom: 15px;
+}
+.entrysetting_main .entryright .entryabstract span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 60px;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+}
+.entrysetting_main .entryright .entryabstract textarea{
+    width: 282px;
+    height: 146px;
+    border: 1px solid #ccc;
+    padding: 11px;
+    margin-left: 80px;
+    resize:none
+}
+.inside_tab_wrap .entrysetting_main .subbtn{
+    text-indent: 350px;
+    padding-top: 700px;
+}
+.inside_tab_wrap .entrysetting_main .subbtn a{
+
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #0085EB;
+    cursor: pointer;
+}
+/*基础设置*/
+.inside_tab_wrap .basicsetting_main{
+    height: 100%;
+    margin-left: 10%;
+}
+.basicsetting_main h5{
+    padding-left: 205px;
+    color: #909090;
+    margin-bottom: 10px;
+}
+/*活动说明*/
+.basicsetting_main .basicexplain{
+    margin-bottom: 26px;
+    padding-top: 50px;
+}
+.basicsetting_main .basicexplain span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+    /*margin-right: 20px;*/
+    position: absolute;
+}
+.basicsetting_main .basicexplain textarea{
+    width: 439px;
+    height: 75px;
+    border: 1px solid #ccc;
+    padding: 11px;
+    margin-left: 200px;
+    resize:none
+}
+/*当前参加人数*/
+.basicsetting_main .basicnum{
+    margin-bottom: 20px;
+}
+.basicsetting_main .basicnum span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+    /*margin-right: 20px;*/
+}
+.basicsetting_main .basicnum input{
+    margin-right: 12px;
+    cursor: pointer;
+}
+.basicsetting_main .basicnum label{
+    margin-right: 40px;
+    cursor: pointer;
+}
+/*中奖人员信息：*/
+.basicsetting_main .basicmsg{
+    margin-bottom: 20px;
+}
+.basicsetting_main .basicmsg span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+    /*margin-right: 20px;*/
+}
+.basicsetting_main .basicmsg input{
+    margin-right: 12px;
+    cursor: pointer;
+}
+.basicsetting_main .basicmsg label{
+    margin-right: 40px;
+    cursor: pointer;
+}
+/*限定中奖次数：*/
+.basicsetting_main .basiclimit{
+    margin-bottom: 20px;
+}
+.basicsetting_main .basiclimit span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+    /*margin-right: 20px;*/
+}
+.basicsetting_main .basiclimit input{
+    width: 66px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+}
+.basicsetting_main .basiclimit em{
+    margin-left: 22px;
+    font-size: 14px;
+    color: #ccc;
+}
+.basicsetting_main .basiclimit em i{
+    font-style: normal;
+    color: #f60;
+}
+/*活动日期：*/
+.basicsetting_main .basicdate{
+    margin-bottom: 20px;
+}
+.basicsetting_main .basicdate span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+    /*margin-right: 20px;*/
+}
+.basicsetting_main .basicdate input{
+    width: 203px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+    font-size: 17px;
+}
+input[type=datetime-local]::-webkit-inner-spin-button {
+    visibility: hidden;
+}
+/*参加后跳转链接地址*/
+.basicsetting_main .basiclink{
+    height: 37px;
+    margin-bottom: 15px;
+}
+.basicsetting_main .basiclink span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+}
+.basicsetting_main .basiclink input{
+    width: 445px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+}
+/*背景音乐*/
+.basicsetting_main .basicmusic{
+    margin-bottom: 26px;
+}
+.basicsetting_main .basicmusic span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+    /*margin-right: 20px;*/
+}
+.basicsetting_main .basicmusic .up{
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    overflow: hidden;
+    color: #fff;
+    background-color: #0085EB;
+    padding: 10px 19px;
+}
+.basicsetting_main .basicmusic .up .file{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    outline: none;
+    background-color: transparent;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+/*添加音乐开始*/
+
+/*添加音乐结束*/
+.basicsetting_main .submit{
+    margin-top: 65px;
+    padding-left: 205px;
+}
+.basicsetting_main .submit a{
+    width: 124px;
+    height: 43px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 31px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.basicsetting_main .laststep{
+    background-color: #ccc;
+}
+.basicsetting_main .nextstep{
+    background-color: #0085EB;
+}
+/*奖品设置*/
+.inside_tab_wrap .prizesetting_main{
+    height: 100%;
+    padding: 0 20px 0 20px;
+}
+.prizesetting_main .prizetitle{
+    padding-top: 40px;
+}
+.prizesetting_main .prizetitle p{
+    font-size: 14px;
+    color: #808080;
+    line-height: 21px;
+}
+.prizesetting_main .prizetitle p em{
+    color: #FF5A00;
+}
+.prizesetting_main hr{
+    height: 2px;
+    background-color: #F0F0F0;
+    border: none;
+    margin: 42px 0 35px 0;
+}
+.prizesetting_main .prizetable{
+    width: 96%;
+    height: 432px;
+    margin: 0 2% 45px 2%;
+    border: 1px solid #ccc;
+}
+.prizesetting_main .prizetable .prizenum{
+    width: 100%;
+    height: 50px;
+}
+.prizesetting_main .prizetable .prizenum ul li{
+    width: 92px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+.prizesetting_main .prizetable .prizenum ul li a{
+    display: block;
+}
+.prizesetting_main .prizetable .prizenum ul li .prizetitleactive{
+    color: #0085EB;
+    background-color: #F9F9F9;
+}
+.prizesetting_main .prizetable .prizecontent{
+    width: 100%;
+    height: 382px;
+}
+.prizesetting_main .prizetable .prizecontent div{
+    width: 100%;
+    height: 100%;
+}
+/*一等奖*/
+.prizesetting_main .prizetable .prizeone{
+    display: block;
+    background-color: #F9F9F9;
+}
+.prizesetting_main .prizetable .prizecontent .prizeone .prizeonetitle{
+    padding: 42px 0 16px 49px;
+}
+.prizesetting_main .prizetable .prizecontent .prizeone hr{
+    width: 96%;
+    height: 2px;
+    border: none;
+    margin: 0 2% 20px 2%;
+    background-color: unset;
+    border-top: 2px dashed #979797;
+}
+/*奖品类型*/
+.prizesetting_main .prizecash{
+    height: 37px!important;
+    margin-bottom: 20px;
+}
+.prizesetting_main .prizecash span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    margin-right: 28px;
+}
+.prizesetting_main .prizecash input{
+    border: 1px solid #ccc;
+    padding-left: 11px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+/*红包金额*/
+.prizesetting_main .prizeredpack{
+    height: 37px!important;
+    margin-bottom: 20px;
+}
+.prizesetting_main .prizeredpack span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    margin-right: 28px;
+}
+.prizesetting_main .prizeredpack input{
+    width: 76px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+    background-color: #fff;
+}
+.prizesetting_main .prizeredpack em{
+    margin-left: 25px;
+    font-size: 14px;
+    color: #FF5900;
+}
+/*红包数量*/
+.prizesetting_main .prizerednum{
+    height: 37px!important;
+    margin-bottom: 20px;
+}
+.prizesetting_main .prizerednum span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    margin-right: 28px;
+}
+.prizesetting_main .prizerednum .prizetext{
+    width: 76px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+    background-color: #fff;
+}
+.prizesetting_main .prizerednum .prizebox{
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+.prizesetting_main .prizerednum em{
+    margin-left: 10px;
+}
+/*中奖率*/
+.prizesetting_main .prizerate{
+    height: 37px!important;
+    margin-bottom: 20px;
+}
+.prizesetting_main .prizerate span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    margin-right: 28px;
+}
+.prizesetting_main .prizerate input{
+    width: 76px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+    background-color: #fff;
+}
+.prizesetting_main .prizerate em{
+    margin-left: 25px;
+    color: #FF5900;
+}
+/*兑奖方式*/
+.prizesetting_main .prizemode{
+    height: 37px!important;
+    /*margin-bottom: 20px;*/
+}
+.prizesetting_main .prizemode span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    margin-right: 28px;
+}
+.prizesetting_main .prizemode input{
+    border: 1px solid #ccc;
+    padding-left: 11px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+/*二等奖*/
+.prizesetting_main .prizetable .prizecontent .prizesecond{
+    display: none;
+    background-color: #F9F9F9;
+}
+.prizesetting_main .prizetable .prizecontent .prizesecond .prizeonetitle{
+    padding: 42px 0 16px 49px;
+}
+.prizesetting_main .prizetable .prizecontent .prizesecond hr{
+    width: 96%;
+    height: 2px;
+    border: none;
+    margin: 0 2% 20px 2%;
+    background-color: unset;
+    border-top: 2px dashed #979797;
+}
+/*三等奖*/
+.prizesetting_main .prizetable .prizecontent .prizethird{
+    display: none;
+    background-color: #F9F9F9;
+}
+.prizesetting_main .prizetable .prizecontent .prizethird .prizeonetitle{
+    padding: 42px 0 16px 49px;
+}
+.prizesetting_main .prizetable .prizecontent .prizethird hr{
+    width: 96%;
+    height: 2px;
+    border: none;
+    margin: 0 2% 20px 2%;
+    background-color: unset;
+    border-top: 2px dashed #979797;
+}
+
+/*未中奖*/
+.prizesetting_main .prizeno{
+    padding-left: 30px;
+}
+.prizesetting_main .prizeno .prizenored{
+    margin-bottom: 20px;
+}
+.prizesetting_main .prizeno .prizenored span{
+    line-height: 37px;
+    font-size: 16px;
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    margin-right: 28px;
+}
+.prizesetting_main .prizeno .prizenored input{
+    width: 161px;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 11px;
+    margin-right: 50px;
+}
+.prizesetting_main .prizeno .prizenored input:last-child{
+    width: 93px;
+    height: 35px;
+    margin-right: 10px;
+}
+.prizesetting_main .prizeno hr{
+    width: 93%;
+    height: 2px;
+    border: none;
+    margin: 0 3.5% 20px 3.5%;
+    border-top: 2px dashed #979797;
+    background-color: transparent;
+}
+.prizesetting_main .submit{
+    margin-top: 25px;
+    padding-left: 600px;
+}
+.prizesetting_main .submit a{
+    width: 124px;
+    height: 43px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 31px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.prizesetting_main .submit .laststep{
+    background-color: #ccc;
+}
+.prizesetting_main .submit .nextstep{
+    background-color: #0085EB;
+}
+/*中奖告知*/
+.inside_tab_wrap .informing_main{
+    height: 100%;
+    padding: 0 20px 0 20px;
+}
+.informing_main .topinforming{
+    padding-top: 40px;
+    height: 40.5%;
+    text-align: center;
+}
+.informing_main .downinforming{
+    height: 40.5%;
+}
+.informing_main .leftinforming{
+    width: 180px;
+    text-align: right;
+    /*margin-top: 40px;*/
+}
+.informing_main .rightinforming{
+    width: 88%;
+    height: 95%;
+    text-align: left;
+    overflow-y: auto;
+}
+.informing_main .rightinforming ul{
+    width: 100%;
+    height: 100%;
+}
+.informing_main .rightinforming ul li{
+    display: inline-block;
+    width: 185px;
+    height: 126px;
+    border: 1px solid transparent;
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.informing_main .rightinforming ul li:hover{
+    border: 1px solid red;
+}
+.informing_main .rightinforming ul li img{
+    width: 100%;
+    height: 100%;
+}
+.informing_main .rightinforming ul li.activeyes{
+    border: 1px solid red;
+}
+.informing_main .rightinforming ul li.activeno{
+    border: 1px solid red;
+}
+.informing_main .informingbtn{
+    width: 124px;
+    height: 39px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #0085EB;
+    cursor: pointer;
+}
+.informing_main .informingbtn input{
+    font-size: 17px;
+    color: #fff;
+    line-height: 39px;
+    cursor: pointer;
+}
+/*我的活动*/
+.outside_tab .personalAccount_title{
+    border-bottom: 1px solid #ccc;
+}
+.outside_tab > ul li em{
+    color: #0090ff;
+}
+.outside_tab>ul li.personalAccount:hover{
+    cursor: pointer;
+    background:transparent;
+}
+.personalAccount_main .perstitle ul{
+    width: 100%;
+    height: 41px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+.personalAccount_main .perstitle ul li{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    font-size: 15px;
+    line-height: 41px;
+}
+.personalAccount_main .perstitle ul li:nth-child(1){
+    width: 19.7%;
+}
+.personalAccount_main .perstitle ul li:nth-child(2){
+    width: 11.8%;
+}
+.personalAccount_main .perstitle ul li:nth-child(3){
+    width: 19.9%;
+}
+.personalAccount_main .perstitle ul li:nth-child(4){
+    width: 11.8%;
+}
+.personalAccount_main .perstitle ul li:nth-child(5){
+    width: 13.5%;
+}
+.personalAccount_main .perstitle ul li:nth-child(6){
+    width: 18.5%;
+}
+.personalAccount_main .perscontent{
+    position: relative;
+}
+.personalAccount_main .perscontent ul{
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid #ccc;
+}
+.personalAccount_main .perscontent ul:hover{
+    background-color: #F3F3F3;
+}
+.personalAccount_main .perscontent ul li{
+    display: inline-block;
+    height: 63px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 63px;
+}
+.personalAccount_main .perscontent ul li:nth-child(1){
+    width: 19.7%;
+}
+.personalAccount_main .perscontent ul li:nth-child(2){
+    width: 11.8%;
+}
+.personalAccount_main .perscontent ul li:nth-child(3){
+    width: 19.9%;
+}
+.personalAccount_main .perscontent ul li:nth-child(4){
+    width: 11.8%;
+}
+.personalAccount_main .perscontent ul li:nth-child(5){
+    width: 13.5%;
+}
+.personalAccount_main .perscontent ul li:nth-child(6){
+    width: 18.5%;
+}
+.personalAccount_main .perscontent ul li .QRcode{
+    width: 22px;
+    height: 22px;
+    float: left;
+    padding: 21px 0 21px 40px;
+    cursor: pointer;
+}
+.personalAccount_main .perscontent ul li .smallcode{
+    position: relative;
+}
+.personalAccount_main .perscontent ul li .bigcode{
+    display: none;
+    width: 162px;
+    height: 213px;
+    background: url("../images/bigcodeimg.png")no-repeat center;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+.personalAccount_main .perscontent ul li .bigcode img{
+    padding-top: 16px;
+}
+.personalAccount_main .perscontent ul li .tabelimg{
+    width: 80px;
+    height: 44px;
+    padding-right: 30px;
+}
+.personalAccount_main .perscontent ul li .date{
+    line-height: 20px;
+    position: relative;
+    top: 10px;
+}
+.personalAccount_main .perscontent ul li .morediv{
+    display: inline-block;
+    margin-right: 30px;
+    color: #0085EB;
+    cursor: pointer;
+    position: relative;
+}
+.personalAccount_main .perscontent ul li .more{
+    display: none;
+    width: 110px;
+    height: 115px;
+    color: #000;
+    background: url("../images/moredivimg.png")no-repeat center;
+    position: absolute;
+    left: -40px;
+    top: 50px;
+    z-index: 99;
+}
+.personalAccount_main .perscontent ul li .more p{
+    line-height: 15px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+.personalAccount_main .perscontent ul li .more p:hover{
+    color: #f60;
+}
+.personalAccount_main .perscontent .paging{
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid #ccc;
+}
+.personalAccount_main .perscontent .paging .pagingleft{
+    line-height: 63px;
+    padding-left: 20px;
+    color: #979797;
+}
+.personalAccount_main .perscontent .paging .pagingleft select{
+    width: 54px;
+    height: 28px;
+    font-size: 15px;
+    color: #979797;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.personalAccount_main .perscontent .paging .pagingright{
+    line-height: 63px;
+    padding-right: 20px;
+    color: #979797;
+}
+.personalAccount_main .perscontent .paging .pagingright a img{
+    width: 16px;
+    height: 16px;
+}
+.personalAccount_main .perscontent .paging .pagingright input[type=text]{
+    width: 54px;
+    height: 28px;
+    padding-left: 7px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    color: #979797;
+}
+.personalAccount_main .perscontent .paging .pagingright input[type=button]{
+    width: 43px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: #979797;
+}
+/*中奖名单*/
+.prizelist_main .prizelisttitle ul{
+    width: 100%;
+    height: 41px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+.prizelist_main .prizelisttitle ul li{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    font-size: 15px;
+    line-height: 41px;
+}
+.prizelist_main .prizelisttitle ul li:nth-child(1){
+    width: 21%;
+}
+.prizelist_main .prizelisttitle ul li:nth-child(2){
+    width: 12%;
+}
+.prizelist_main .prizelisttitle ul li:nth-child(3){
+    width: 23%;
+}
+.prizelist_main .prizelisttitle ul li:nth-child(4){
+    width: 22%;
+}
+.prizelist_main .prizelisttitle ul li:nth-child(5){
+    width: 20%;
+}
+.prizelist_main .prizecontent{
+    position: relative;
+}
+.prizelist_main .prizecontent ul{
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid #ccc;
+}
+.prizelist_main .prizecontent ul:hover{
+    background-color: #F3F3F3;
+}
+.prizelist_main .prizecontent ul li{
+    display: inline-block;
+    height: 63px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 63px;
+}
+.prizelist_main .prizecontent ul li:nth-child(1){
+    width: 21%;
+}
+.prizelist_main .prizecontent ul li:nth-child(2){
+    width: 12%;
+}
+.prizelist_main .prizecontent ul li:nth-child(3){
+    width: 23%;
+}
+.prizelist_main .prizecontent ul li:nth-child(4){
+    width: 22%;
+}
+.prizelist_main .prizecontent ul li:nth-child(5){
+    width: 20%;
+}
+.prizelist_main .prizecontent .paging{
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid #ccc;
+}
+.prizelist_main .prizecontent .paging .pagingleft{
+    line-height: 63px;
+    padding-left: 20px;
+    color: #979797;
+}
+.prizelist_main .prizecontent .paging .pagingleft select{
+    width: 54px;
+    height: 29px;
+    font-size: 15px;
+    color: #979797;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+}
+.prizelist_main .prizecontent .paging .pagingright{
+    line-height: 63px;
+    padding-right: 20px;
+    color: #979797;
+}
+.prizelist_main .prizecontent .paging .pagingright a img{
+    width: 16px;
+    height: 16px;
+}
+.prizelist_main .prizecontent .paging .pagingright input[type=text]{
+    width: 54px;
+    height: 29px;
+    padding-left: 7px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    color: #979797;
+}
+.prizelist_main .prizecontent .paging .pagingright input[type=button]{
+    width: 43px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: #979797;
+}
+/*疯狂抢红包活动*/
+.redpackmask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+    display: none;
+}
+.redpackmask .redpack{
+    width: 695px;
+    height: 560px;
+    margin: 200px auto;
+    background-color: #fff;
+}
+.redpackmask .redpack .close{
+    float: right;
+    padding: 30px 30px 0 30px;
+    cursor: pointer;
+}
+.redpackmask .redpack .left{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.redpackmask .redpack .left img{
+    width: 271px;
+    height: 460px;
+    padding: 50px 40px;
+}
+.redpackmask .redpack .right{
+    float: left;
+    width: 42%;
+    margin-left: 8%;
+    /*height: 100%;*/
+}
+.redpackmask .redpack .right .title{
+    width: 100%;
+    height: 78px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: #575757;
+}
+.redpackmask .redpack .right .code{
+    margin-bottom: 55px;
+}
+.redpackmask .redpack .right .btn{
+    width: 208px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    background-color: #0075D0;
+}
+.redpackmask .redpack .right .btn a{
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*充值页面*/
+.recharge{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+    display: none;
+}
+.recharge .rechargediv{
+    width: 504px;
+    height: 204px;
+    margin: 300px auto;
+    background-color: #fff;
+}
+.recharge .rechargediv .rechargetitle{
+    padding: 45px 92px;
+    font-size: 20px;
+    color: #FF0000;
+}
+.recharge .rechargediv .rechargecontent a{
+    width: 76px;
+    height: 39px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 39px;
+}
+.recharge .rechargediv .rechargecontent a.yes{
+    margin-left: 130px;
+    background-color: #008FFF;
+}
+.recharge .rechargediv .rechargecontent a.no{
+    margin-right: 130px;
+    background-color: #B6B6B6;
+}
+/*添加活动成功*/
+.success{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+    display: none;
+}
+.success .successmask{
+    width: 504px;
+    height: 204px;
+    margin: 300px auto;
+    background-color: #fff;
+}
+.success .successmask .rechargetitle{
+    padding: 45px 89px;
+    font-size: 20px;
+    color: #FF0000;
+}
+.success .successmask .rechargecontent{
+    text-align: center;
+}
+.success .successmask .rechargecontent a{
+    width: 76px;
+    height: 39px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 39px;
+    padding: 10px 40px;
+    background-color: #008FFF;
+}
+/*copyright*/
+.copyright {
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 1.5rem;
+    height: 60px;
+    line-height: 60px;
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+    .person .top_personc {
+        display: none;
+        background-color: #fff;
+        width: 96px;
+        height: 128px;
+        z-index: 15;
+        position: absolute;
+        right: 115px;
+        top: 60px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+    .redpackmask .redpack {
+        width: 695px;
+        height: 560px;
+        margin: 100px auto;
+        background-color: #fff;
+    }
+    .inside_tab_wrap .entrysetting_main .subbtn {
+        text-indent: 300px;
+        padding-top: 700px;
+    }
+    .prizesetting_main .submit {
+        margin-top: 25px;
+        padding-left: 400px;
+    }
+    .informing_main .rightinforming {
+        width: 80%;
+        height: 95%;
+        text-align: left;
+        overflow-y: auto;
+    }
+    .informing_main .rightinforming ul li {
+        display: inline-block;
+        width: 160px;
+        height: 110px;
+        border: 1px solid transparent;
+        margin: 0 10px 10px 10px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .personalAccount_main .perscontent ul li .QRcode {
+        width: 22px;
+        height: 22px;
+        float: left;
+        padding: 21px 0 21px 10px;
+        cursor: pointer;
+    }
+    .personalAccount_main .perscontent ul li .tabelimg {
+        width: 80px;
+        height: 44px;
+        padding-right: 0;
+    }
+    .personalAccount_main .perscontent ul li .date{
+        line-height: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .personalAccount_main .perscontent ul li .morediv {
+        margin-right: 10px;
+        color: #0085EB;
+        cursor: pointer;
+        position: relative;
+    }
+    .personalAccount_main .perscontent ul li .bigcode {
+        display: none;
+        width: 162px;
+        height: 213px;
+        background: url(../images/bigcodeimg.png)no-repeat center;
+        position: absolute;
+        top: 50px;
+        right: -38px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1623px) {
+    .person .top_personc {
+        display: none;
+        background-color: #fff;
+        width: 96px;
+        height: 128px;
+        z-index: 15;
+        position: absolute;
+        right: 115px;
+        top: 60px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+    .redpackmask .redpack {
+        width: 695px;
+        height: 560px;
+        margin: 50px auto;
+        background-color: #fff;
+    }
+    .inside_tab_wrap .entrysetting_main .subbtn {
+        text-indent: 300px;
+        padding-top: 700px;
+    }
+    .prizesetting_main .submit {
+        margin-top: 25px;
+        padding-left: 350px;
+    }
+    .informing_main .rightinforming {
+        width: 80%;
+        height: 95%;
+        text-align: left;
+        overflow-y: auto;
+    }
+    .informing_main .rightinforming ul li {
+        display: inline-block;
+        width: 160px;
+        height: 110px;
+        border: 1px solid transparent;
+        margin: 0 10px 10px 10px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .personalAccount_main .perscontent ul li .QRcode {
+        width: 22px;
+        height: 22px;
+        float: left;
+        padding: 21px 0 21px 10px;
+        cursor: pointer;
+    }
+    .personalAccount_main .perscontent ul li .tabelimg {
+        width: 80px;
+        height: 44px;
+        padding-right: 0;
+    }
+    .personalAccount_main .perscontent ul li .date{
+        line-height: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .personalAccount_main .perscontent ul li .morediv {
+        margin-right: 10px;
+        color: #0085EB;
+        cursor: pointer;
+        position: relative;
+    }
+    .personalAccount_main .perscontent ul li .bigcode {
+        display: none;
+        width: 162px;
+        height: 213px;
+        background: url(../images/bigcodeimg.png)no-repeat center;
+        position: absolute;
+        top: 50px;
+        right: -38px;
+    }
+}

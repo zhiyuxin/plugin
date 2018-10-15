@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <title>个人中心</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
+</head>
+<body>
+<!--header start-->
+<header>
+    <div class="header_wrap clearfix">
+        <ul>
+            <li><a href="">闪展首页</a></li>
+            <li><a href="">闪展助手</a></li>
+            <li><a href="">入住须知</a></li>
+            <li><a href="">法律声明</a></li>
+        </ul>
+        <div class="person">
+            <ul class="top_nav">
+                <li class="myorder">
+                    <a href="#">我的订单</a>
+                </li>
+                <li class="shopping">
+                    <a href="##">
+                        <img src="images/top_shopping.png" alt="">购物车（<em>10</em>）</a>
+                </li>
+                <li class="head">
+                    <div class="head_block">
+                        <a href="#" class="headimg">
+                            <img src="images/top_head.png" alt="">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="top_personc">
+                <p>
+                    <a href="#">个人中心</a>
+                </p>
+                <p>
+                    <a href="#">商户中心</a>
+                </p>
+                <p>
+                    <a href="#">退出登录</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+<!--header end-->
+<!--nav start-->
+<nav>
+    <ul>
+        <li><a href="">个人中心</a></li>
+        <li><a href="">VR全景</a></li>
+        <li><a href="">3D环物</a></li>
+        <li><a href="">行业商城</a></li>
+        <li class="nav_active"><a href="">营销插件</a></li>
+        <li><a href="">数据中心</a></li>
+        <li><a href="">第三方应用</a></li>
+        <li><a href="">第三方服务市场</a></li>
+    </ul>
+</nav>
+<!--nav end-->
+<!--main start-->
+<div class="main">
+    <div class="main_left">
+        <div class="aside_top">
+            <img src="images/personalCenter_main_02.jpg"/>
+            <h2>西安闪展云互联网</h2>
+            <h3>ID:18393818684</h3>
+            <h3>等级：商业会员</h3>
+            <a href="basicsetting.html">修改资料</a>
+        </div>
+        <ul class="aside_nav">
+            <li class="aside_nav_active"><a href="createactivity.html"><span>+创建活动</span></a></li>
+            <li><a href="personalAccount.html"><span>+我的活动</span></a></li>
+        </ul>
+    </div>
+    <div class="main_content">
+        <!--主栏目个人中心开始-->
+        <div class="outside_tab">
+            <ul class="clearfix">
+                <li><a href="entrysetting.html">入口设置</a></li>
+                <li><a href="basicsetting.html">基础设置</a></li>
+                <li><a href="prizesetting.html">奖品设置</a></li>
+                <li class="inside_tab_active"><a href="informing.html">中奖告知</a></li>
+            </ul>
+            <div class="inside_tab_wrap">
+                <div class="informing_main">
+                    <div class="topinforming">
+                        <div class="leftinforming fl">
+                            中奖提示效果：
+                        </div>
+                        <div class="rightinforming prizeyes fl">
+                            <ul>
+                                <li><img src="images/prizeyes_1.png" alt=""></li>
+                                <li><img src="images/prizeyes_2.png" alt=""></li>
+                                <li><img src="images/prizeyes_3.png" alt=""></li>
+                                <li><img src="images/prizeyes_4.png" alt=""></li>
+                                <li><img src="images/prizeyes_5.png" alt=""></li>
+                                <li><img src="images/prizeyes_6.png" alt=""></li>
+                                <li><img src="images/prizeyes_7.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="downinforming">
+                        <div class="leftinforming fl">
+                            未中奖提示效果：
+                        </div>
+                        <div class="rightinforming prizeno fl">
+                            <ul>
+                                <li><img src="images/prizeno_1.png" alt=""></li>
+                                <li><img src="images/prizeno_2.png" alt=""></li>
+                                <li><img src="images/prizeno_3.png" alt=""></li>
+                                <li><img src="images/prizeno_4.png" alt=""></li>
+                                <li><img src="images/prizeno_5.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="informingbtn">
+                        <input type="button" class="complete" value="完成">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--主栏目个人中心结束-->
+    </div>
+</div>
+<!--main end-->
+<!--copyright start-->
+<div class="success">
+    <div class="successmask">
+        <p class="rechargetitle">活动添加成功，跳到我的活动列表&nbsp;！</p>
+        <p class="rechargecontent">
+            <a href="personalAccount.html" class="no">跳转</a>
+        </p>
+    </div>
+</div>
+<div class="copyright">
+    版权所有Copyright©2017-2020京ICP备17009776号-1
+</div>
+<!--copyright end-->
+<script>
+    //提示效果选中
+    $(function (){
+        //中奖提示效果
+        $('.prizeyes li').click(function (){
+            //把之前已有的active去掉
+            $('.activeyes').removeClass('activeyes');
+            //当前点击的li加上class
+            $(this).addClass("activeyes");
+
+        });
+        //未中奖提示效果
+        $('.prizeno li').click(function (){
+            //把之前已有的active去掉
+            $('.activeno').removeClass('activeno');
+            //当前点击的li加上class
+            $(this).addClass("activeno");
+
+        });
+        $('.head_block').click(function () {
+            $('.top_personc').fadeToggle('fast');
+        })
+        $('.complete').click(function () {
+            $('.success').fadeToggle('fast');
+        })
+    });
+</script>
+</body>
+</html>
